@@ -15,7 +15,9 @@ public class TournamentService : ITournamentService
 
     public async Task<List<Tournament>> GetAllAsync(string? search)
     {
-        var query = _context.Tournaments.AsQueryable();
+        var query = _context.Tournaments
+            .Include(t => t.Games)
+            .AsQueryable();
 
         if (!string.IsNullOrWhiteSpace(search))
         {
@@ -27,7 +29,9 @@ public class TournamentService : ITournamentService
 
     public async Task<Tournament?> GetByIdAsync(int id)
     {
-        return await _context.Tournaments.FindAsync(id);
+        return await _context.Tournaments
+            .Include(t => t.Games)
+            .FirstOrDefaultAsync(t => t.Id == id);
     }
 
     public async Task<Tournament> CreateAsync(Tournament tournament)

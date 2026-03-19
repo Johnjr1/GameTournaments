@@ -159,3 +159,4 @@
 /Users/johnjr/Documents/Backend Cloud/Webapplikationer/Inlämning1/GameTournamentApi/GameTournamentApi/obj/Debug/net10.0/ref/GameTournamentApi.dll
 /Users/johnjr/Documents/Backend Cloud/Webapplikationer/Inlämning1/GameTournamentApi/GameTournamentApi/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/johnjr/Documents/Backend Cloud/Webapplikationer/Inlämning1/GameTournamentApi/GameTournamentApi/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/johnjr/Documents/Backend Cloud/Webapplikationer/Inlämning1/GameTournamentApi/GameTournamentApi/obj/Debug/net10.0/GameTournamentApi.sourcelink.json

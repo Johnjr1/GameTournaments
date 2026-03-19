@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GameTournamentApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a7a04ecc3669406573ef7752b94e9903aff1254")]
 [assembly: System.Reflection.AssemblyProductAttribute("GameTournamentApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GameTournamentApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
